@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - PlayerSetup
     Mirror.Components.dll:
     - Mirror.NetworkTransform
+    - Mirror.NetworkTransformChild
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -59,23 +60,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1466}
+      Script: {instanceID: 1464}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2110}
     - Class: 114
-      Script: {instanceID: 3218}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 4562}
+      Script: {instanceID: 4394}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4560}
     - Class: 114
-      Script: {instanceID: 4698}
+      Script: {instanceID: 4642}
+    - Class: 114
+      Script: {instanceID: 4696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -83,6 +86,8 @@ ScriptsOnlyBuild:
     - Class: 136
       Script: {instanceID: 0}
     - Class: 143
+      Script: {instanceID: 0}
+    - Class: 153
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -197,7 +202,7 @@ ScriptsOnlyBuild:
     className: AdditiveLevelsNetworkManager
   - hash:
       serializedVersion: 2
-      Hash: 218048bd93e908746781901d78cf0f9b
+      Hash: c08b673a2368599cf7263ce1d069ebdb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMotor
@@ -299,7 +304,7 @@ ScriptsOnlyBuild:
     className: Player
   - hash:
       serializedVersion: 2
-      Hash: daccae82115664fe520b7af4d88d39b4
+      Hash: 221de37f30736e3a51f2e1d5642ce0a8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
