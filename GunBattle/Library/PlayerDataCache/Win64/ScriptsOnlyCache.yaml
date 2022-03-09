@@ -4,9 +4,12 @@ ScriptsOnlyBuild:
     - PlayerController
     - PlayerMotor
     - PlayerSetup
+    - PlayerShoot
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     - Mirror.NetworkTransformChild
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -79,6 +82,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4642}
     - Class: 114
       Script: {instanceID: 4696}
+    - Class: 114
+      Script: {instanceID: 16812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -994,7 +999,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 690c0b1a818ad97ab70908d6171d25eb
+      Hash: 781cddf76ed0d11b0ca96ec6dd487da7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerSetup
@@ -1082,6 +1087,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: NetworkRoomPlayerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 524edbe3e916f2112fdacac3d7dbd371
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerShoot
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
